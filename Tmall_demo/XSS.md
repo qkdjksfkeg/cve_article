@@ -2,7 +2,7 @@
 Mini-Tmall is a mini Tmall mall based on Spring Boot, which can be quickly deployed and run, and is suitable as a template for completion.
 # System situation
 ## version
-Before September 1, 2024
+2025/02/11 latest
 ## Project address
 https://gitee.com/project_team/Tmall_demo
 ## verify
