@@ -1,4 +1,4 @@
-#Description of the vulnerability
+# Description of the vulnerability
 Mini-Tmall is a mini Tmall mall based on Spring Boot, which can be quickly deployed and run, and is suitable as
 a template for completion.
 The audit of this project found that the filter layer had no code for protecting XSS.
