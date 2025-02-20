@@ -1,1 +1,9 @@
-wdwdcv
+#Description of the vulnerability
+Mini-Tmall is a mini Tmall mall based on Spring Boot, which can be quickly deployed and run, and is suitable as
+a template for completion.
+The audit of this project found that the filter layer had no code for protecting XSS.
+Further verification from the perspective of black box testing.
+There is an XSS vulnerability in Admin Background - My Account - Administrator nickname. Access the function, enter
+the XSS vulnerability verification POC in the administrator nickname, click Save, trigger the XSS box, as shown below:
+<img width="666" alt="WXWorkLocal_174003408742" src="https://github.com/user-attachments/assets/979a2a9f-d4df-4d08-b1d3-b83f63c053f2" />
+
