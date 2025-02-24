@@ -24,6 +24,7 @@ https://gitee.com/project_team/Tmall_demo
 ![image](https://github.com/user-attachments/assets/393d9132-0669-49c5-9a74-43e912a58ab2)
 ## verify
 sqlmap test results
+sqlmap -u http://127.0.0.1:8887/tmall/product/0/20?orderBy=product_sale_price
 ![image](https://github.com/user-attachments/assets/d1c33aa8-8ad3-42b2-9591-81cbdad45f71)
 
 
