@@ -7,7 +7,7 @@ V1.0
 https://gitee.com/aaluoxiang/oa_system
 
 ## analyse
-1.The global search found that ${outtype} is used as a connection parameter in src/main/resources/mappers/address-mapper.xml:18.  So, if we can control the parameters, it's going to cause SQL injection.
+1.The global search found that ${outtype} is used as a connection parameter in src/main/resources/mappers/address-mapper.xml:19.  So, if we can control the parameters, it's going to cause SQL injection.
 ![image](https://github.com/user-attachments/assets/e5020c41-7195-4f32-9a69-aad1cd9e5157)
 
 2.Find the allDirector() method declaration in src/main/java/cn/gson/oasys/mappers/AddressMapper.java:13.  You can control outtype.  Let's go ahead and find where the allDirector() method is called.
