@@ -1,5 +1,5 @@
 # Description of the vulnerability
-Office automation (OA) is the most frequently used application system for the daily operation and management of the organization, which greatly improves the office efficiency of the company.
+Office automation (OA) is the most frequently used application system for the daily operation and management of the organization, which greatly improves the office efficiency of the company.The system has SQL injection in the external address book query
 # System situation
 ## version
 V1.0
@@ -27,7 +27,9 @@ sqlmap test results
 sqlmap -r r.txt
 ```
 ![image](https://github.com/user-attachments/assets/66d8c630-fe29-48b3-b9f6-3823c35c21d7)
-![image](https://github.com/user-attachments/assets/9f85c203-fd1d-4127-9427-269689d486c9)
+![image](https://github.com/user-attachments/assets/073a41cf-6abe-4866-82b9-e368e9be5eeb)
+
+
 
 
 
