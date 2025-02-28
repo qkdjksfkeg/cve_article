@@ -2,6 +2,8 @@
 Tale is a Java developed blog system based on MVC framework lightweight platform, the system admin route authentication has security issues, resulting in direct access without login.
 # vendor
 https://github.com/otale/tale
+# version
+v2.0.5
 # verify
 Direct access to http://127.0.0.1:9000/admin/api/logs will jump to the login screen
 
